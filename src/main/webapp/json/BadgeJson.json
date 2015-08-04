@@ -1,0 +1,198 @@
+{
+  "content": [
+    {
+      "id": "128450",
+      "url": "https://heroes.epam.com/api/employees/4060741400009525917/badges/128450",
+      "badge": {
+        "id": "1",
+        "url": "https://heroes.epam.com/api/badges/1"
+      },
+      "byEmployee": null,
+      "assigner": {
+        "id": "1000000",
+        "url": "https://heroes.epam.com/api/accounts/1000000"
+      },
+      "assignerType": "ACCOUNT",
+      "toEmployee": {
+        "id": "4060741400009525917",
+        "url": "https://heroes.epam.com/api/employees/4060741400009525917"
+      },
+      "status": "CONFIRMED",
+      "comment": "Welcome aboard!",
+      "groupInfo": null,
+      "notificationCCEmails": [],
+      "parentProjectBadgeAssignment": null,
+      "points": 10,
+      "assigned": "2015-02-27 01:04:31 +0300"
+    },
+    {
+      "id": "129242",
+      "url": "https://heroes.epam.com/api/employees/4060741400009525917/badges/129242",
+      "badge": {
+        "id": "22",
+        "url": "https://heroes.epam.com/api/badges/22"
+      },
+      "byEmployee": null,
+      "assigner": {
+        "id": "1000000",
+        "url": "https://heroes.epam.com/api/accounts/1000000"
+      },
+      "assignerType": "ACCOUNT",
+      "toEmployee": {
+        "id": "4060741400009525917",
+        "url": "https://heroes.epam.com/api/employees/4060741400009525917"
+      },
+      "status": "CONFIRMED",
+      "comment": "Adaptation program completed",
+      "groupInfo": null,
+      "notificationCCEmails": [],
+      "parentProjectBadgeAssignment": null,
+      "points": 30,
+      "assigned": "2015-03-05 13:21:06 +0300"
+    }
+  ],
+  "errors": [],
+  "refs": {
+    "https://heroes.epam.com/api/badges/22": {
+      "id": "22",
+      "url": "https://heroes.epam.com/api/badges/22",
+      "name": "Adapted with 100% progress",
+      "description": "Adapted with 100% progress",
+      "comment": "",
+      "enabled": true,
+      "weightLabel": {
+        "id": "3",
+        "url": "https://heroes.epam.com/api/badges/weights/3"
+      },
+      "weight": 30,
+      "type": "SYSTEM",
+      "image": {
+        "id": "1594",
+        "url": "https://heroes.epam.com/api/images/1594",
+        "title": "Adaptation-portal",
+        "imageUrl": "https://heroes.epam.com/api/images/1594/content"
+      },
+      "renewalPeriod": null,
+      "renewalPeriodInitialDate": null,
+      "maxBadgesInPeriod": null,
+      "maxBadgesToGivePerPersonInPeriod": null,
+      "approvable": false,
+      "approvableScope": null,
+      "actionAtExpiration": null,
+      "expirationPeriodInDays": null,
+      "account": null,
+      "project": null,
+      "value": null,
+      "author": null,
+      "assignmentRule": "USER_UNIQUE",
+      "badgeWeightComponents": {
+        "effort": 300,
+        "coverage": 300,
+        "effect": 300,
+        "novelty": 300,
+        "extra": 300
+      },
+      "tags": [],
+      "events": [],
+      "metaInfo": [],
+      "notifications": {},
+      "groups": null,
+      "created": "2013-03-29 17:18:10 +0300"
+    },
+    "https://heroes.epam.com/api/accounts/1000000": {
+      "id": "1000000",
+      "url": "https://heroes.epam.com/api/accounts/1000000",
+      "name": "EPAM",
+      "accountUnits": [],
+      "projects": [],
+      "backgroundColor": "#39C2D7",
+      "totalMemberCount": 0,
+      "logoUrl": null,
+      "resetLogo": false,
+      "logo": null,
+      "badgeAssignerType": "ACCOUNT"
+    },
+    "https://heroes.epam.com/api/badges/weights/6": {
+      "id": "6",
+      "url": "https://heroes.epam.com/api/badges/weights/6",
+      "name": "Promo",
+      "weight": 10,
+      "description": "e.g. special event/holiday badge (Feb.14th, 8th of March)"
+    },
+    "https://heroes.epam.com/api/badges/1": {
+      "id": "1",
+      "url": "https://heroes.epam.com/api/badges/1",
+      "name": "Welcome aboard!",
+      "description": "Start of your journey as a hero!",
+      "comment": "",
+      "enabled": true,
+      "weightLabel": {
+        "id": "6",
+        "url": "https://heroes.epam.com/api/badges/weights/6"
+      },
+      "weight": 10,
+      "type": "SYSTEM",
+      "image": {
+        "id": "1620",
+        "url": "https://heroes.epam.com/api/images/1620",
+        "title": "Welcome aboard",
+        "imageUrl": "https://heroes.epam.com/api/images/1620/content"
+      },
+      "renewalPeriod": null,
+      "renewalPeriodInitialDate": null,
+      "maxBadgesInPeriod": null,
+      "maxBadgesToGivePerPersonInPeriod": null,
+      "approvable": false,
+      "approvableScope": null,
+      "actionAtExpiration": null,
+      "expirationPeriodInDays": null,
+      "account": null,
+      "project": null,
+      "value": null,
+      "author": null,
+      "assignmentRule": "USER_UNIQUE",
+      "badgeWeightComponents": {
+        "effort": 100,
+        "coverage": 100,
+        "effect": 100,
+        "novelty": 100,
+        "extra": 100
+      },
+      "tags": [],
+      "events": [],
+      "metaInfo": [],
+      "notifications": {},
+      "groups": null,
+      "created": "2013-01-22 11:44:13 +0300"
+    },
+    "https://heroes.epam.com/api/badges/weights/3": {
+      "id": "3",
+      "url": "https://heroes.epam.com/api/badges/weights/3",
+      "name": "Achievable",
+      "weight": 30,
+      "description": "e.g. Community Speaker"
+    },
+    "https://heroes.epam.com/api/employees/4060741400009525917": {
+      "id": "4060741400009525917",
+      "url": "https://heroes.epam.com/api/employees/4060741400009525917",
+      "firstName": "Yehor",
+      "lastName": "Savula",
+      "name": "Yehor Savula",
+      "photo": "https://heroes.epam.com/api/employees/4060741400009525917/photo",
+      "position": "Student",
+      "office": "Kolomenskaya str., 63, RD Java Lab 2",
+      "location": "CIS, Ukraine, Kharkiv, Kolomenskaya str., 63, RD Java Lab 2",
+      "email": "Yehor_Savula@epam.com",
+      "fired": false,
+      "roles": [],
+      "badgeAssignerType": "EMPLOYEE"
+    }
+  },
+  "paging": {
+    "totalCount": 2,
+    "pageSize": -1,
+    "startIndex": 0,
+    "maxCount": 500
+  },
+  "hasMoreResults": null
+}
