@@ -14,4 +14,9 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping(value = "/")
+    public String getHomePage() {
+        return "index";
+    }
+
 }

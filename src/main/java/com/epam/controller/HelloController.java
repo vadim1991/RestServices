@@ -13,14 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloController {
 
-    @RequestMapping(value = "/hello")
-    public @ResponseBody Person getMessage() {
-        Person person = new Person();
-        person.setId(1);
-        person.setName("Vadym");
-        return person;
-    }
-
     @RequestMapping(value = "json/object", method = RequestMethod.POST)
     public @ResponseBody Person getJsonText(@RequestBody Person person) {
         System.out.println("===== controller " + person);
