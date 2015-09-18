@@ -16,7 +16,7 @@ public class VKProfileBean implements Serializable {
     private String bdate;
     private int city;
     private int country;
-    private int timeZone;
+    private int timezone;
     private String photo;
 
     public String getUid() {
@@ -91,12 +91,12 @@ public class VKProfileBean implements Serializable {
         this.country = country;
     }
 
-    public int getTimeZone() {
-        return timeZone;
+    public int getTimezone() {
+        return timezone;
     }
 
-    public void setTimeZone(int timeZone) {
-        this.timeZone = timeZone;
+    public void setTimezone(int timezone) {
+        this.timezone = timezone;
     }
 
     public String getPhoto() {
@@ -142,9 +142,9 @@ public class VKProfileBean implements Serializable {
                 ", nickname='" + nickname + '\'' +
                 ", screen_name='" + screen_name + '\'' +
                 ", bdate='" + bdate + '\'' +
-                ", city='" + city + '\'' +
+                ", city=" + city +
                 ", country=" + country +
-                ", timeZone=" + timeZone +
+                ", timezone=" + timezone +
                 ", photo='" + photo + '\'' +
                 '}';
     }
