@@ -17,6 +17,7 @@
         <dbcp.version>1.4</dbcp.version>
         <hibernate.version>4.3.6.Final</hibernate.version>
         <spring.security.version>3.2.3.RELEASE</spring.security.version>
+        <joda.time>2.8.2</joda.time>
     </properties>
     <dependencies>
         <!-- Jackson -->
@@ -72,24 +73,6 @@
             <artifactId>spring-security-config</artifactId>
             <version>${spring.security.version}</version>
         </dependency>
-
-        <!-- Hibernate
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.31</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>${hibernate.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>${hibernate.version}</version>
-        </dependency>
-         -->
 
         <!-- Logging  -->
         <dependency>
@@ -181,6 +164,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda.time}</version>
         </dependency>
 
     </dependencies>

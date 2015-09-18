@@ -3,7 +3,7 @@ package com.epam.entity;
 /**
  * Created by Vadym_Vlasenko on 8/29/2015.
  */
-public class GoogleProfileBean {
+public class GoogleProfileBean implements ProfileBean {
 
     private String id;
     private String email;

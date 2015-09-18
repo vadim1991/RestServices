@@ -1,0 +1,373 @@
+{
+  "template": {
+    "templateID": "BACK_IN_STOCK"
+  },
+  "email": [
+    {
+      "subject": "Notification",
+      "fromName": "test",
+      "fromAddress": "johnlewis@eml.johnlewis.com",
+      "toAddress": "test18@t.t",
+      "priority": "1",
+      "dynamicAttributes": [
+        {
+          "name": "generalInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "Campaign_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_Occurrence_No",
+              "value": "test"
+            },
+            {
+              "name": "toMessageType",
+              "value": "0"
+            },
+            {
+              "name": "optOutURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/store/backinstock/email-me-when-available-cancellation?productUrl=/ted-baker-nour-silk-maxi-dress/p999100&selectedSize=M&colour=Orange&Sku=212&fid=RW1haWw9dGVzdDE4QHQudCZiYWNrSW5TdG9ja05vdGlmeUl0ZW1JRD0xMDAwMTg%3D"
+            }
+          ]
+        },
+        {
+          "name": "recipientContext",
+          "dynamicAttributeType": [
+            {
+              "name": "firstName",
+              "value": "firstName"
+            },
+            {
+              "name": "lastName",
+              "value": "lastName"
+            },
+            {
+              "name": "title",
+              "value": "title"
+            }
+          ]
+        },
+        {
+          "name": "userContext",
+          "dynamicAttributeType": [
+            {
+              "name": "myJLStatus",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "productInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "productCategory",
+              "value": "Department 30"
+            },
+            {
+              "name": "productCode",
+              "value": "999100"
+            },
+            {
+              "name": "webSKU",
+              "value": "212"
+            },
+            {
+              "name": "imageURL",
+              "value": "http://johnlewis.scene7.com/is/image/JohnLewis/000312826?"
+            },
+            {
+              "name": "productURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/ted-baker-nour-silk-maxi-dress/p999100?colour=Orange&selectedSize=M"
+            },
+            {
+              "name": "itemName",
+              "value": "Ted Baker Nour Silk Maxi Dress,Orange,M"
+            },
+            {
+              "name": "requestTimePrice",
+              "value": "25.55"
+            },
+            {
+              "name": "productRating",
+              "value": "1.9"
+            },
+            {
+              "name": "notificationTimePrice",
+              "value": "229.99"
+            },
+            {
+              "name": "quantityInStock",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "dynamicAttributeType": [
+            {
+              "name": "numberOfOpenRequests",
+              "value": "9"
+            },
+            {
+              "name": "countOfNotificationsInGroup",
+              "value": "9"
+            },
+            {
+              "name": "timeTilNextWave",
+              "value": "00:00:18:49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Notification",
+      "fromName": "test",
+      "fromAddress": "johnlewis@eml.johnlewis.com",
+      "toAddress": "test19@t.t",
+      "priority": "1",
+      "dynamicAttributes": [
+        {
+          "name": "generalInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "Campaign_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_Occurrence_No",
+              "value": "test"
+            },
+            {
+              "name": "toMessageType",
+              "value": "0"
+            },
+            {
+              "name": "optOutURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/store/backinstock/email-me-when-available-cancellation?productUrl=/ted-baker-nour-silk-maxi-dress/p999100&selectedSize=M&colour=Orange&Sku=212&fid=RW1haWw9dGVzdDE5QHQudCZiYWNrSW5TdG9ja05vdGlmeUl0ZW1JRD0xMDAwMTk%3D"
+            }
+          ]
+        },
+        {
+          "name": "recipientContext",
+          "dynamicAttributeType": [
+            {
+              "name": "firstName",
+              "value": "firstName"
+            },
+            {
+              "name": "lastName",
+              "value": "lastName"
+            },
+            {
+              "name": "title",
+              "value": "title"
+            }
+          ]
+        },
+        {
+          "name": "userContext",
+          "dynamicAttributeType": [
+            {
+              "name": "myJLStatus",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "productInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "productCategory",
+              "value": "Department 30"
+            },
+            {
+              "name": "productCode",
+              "value": "999100"
+            },
+            {
+              "name": "webSKU",
+              "value": "212"
+            },
+            {
+              "name": "imageURL",
+              "value": "http://johnlewis.scene7.com/is/image/JohnLewis/000312826?"
+            },
+            {
+              "name": "productURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/ted-baker-nour-silk-maxi-dress/p999100?colour=Orange&selectedSize=M"
+            },
+            {
+              "name": "itemName",
+              "value": "Ted Baker Nour Silk Maxi Dress,Orange,M"
+            },
+            {
+              "name": "requestTimePrice",
+              "value": "25.55"
+            },
+            {
+              "name": "productRating",
+              "value": "1.9"
+            },
+            {
+              "name": "notificationTimePrice",
+              "value": "229.99"
+            },
+            {
+              "name": "quantityInStock",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "dynamicAttributeType": [
+            {
+              "name": "numberOfOpenRequests",
+              "value": "9"
+            },
+            {
+              "name": "countOfNotificationsInGroup",
+              "value": "9"
+            },
+            {
+              "name": "timeTilNextWave",
+              "value": "00:00:18:49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Notification",
+      "fromName": "test",
+      "fromAddress": "johnlewis@eml.johnlewis.com",
+      "toAddress": "test16@t.t",
+      "priority": "1",
+      "dynamicAttributes": [
+        {
+          "name": "generalInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "Campaign_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_CD",
+              "value": "Notification Test"
+            },
+            {
+              "name": "Communication_Occurrence_No",
+              "value": "test"
+            },
+            {
+              "name": "toMessageType",
+              "value": "0"
+            },
+            {
+              "name": "optOutURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/store/backinstock/email-me-when-available-cancellation?productUrl=/ted-baker-nour-silk-maxi-dress/p999100&selectedSize=M&colour=Orange&Sku=212&fid=RW1haWw9dGVzdDE2QHQudCZiYWNrSW5TdG9ja05vdGlmeUl0ZW1JRD0xMDAwMTY%3D"
+            }
+          ]
+        },
+        {
+          "name": "recipientContext",
+          "dynamicAttributeType": [
+            {
+              "name": "firstName",
+              "value": "firstName"
+            },
+            {
+              "name": "lastName",
+              "value": "lastName"
+            },
+            {
+              "name": "title",
+              "value": "title"
+            }
+          ]
+        },
+        {
+          "name": "userContext",
+          "dynamicAttributeType": [
+            {
+              "name": "myJLStatus",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "productInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "productCategory",
+              "value": "Department 30"
+            },
+            {
+              "name": "productCode",
+              "value": "999100"
+            },
+            {
+              "name": "webSKU",
+              "value": "212"
+            },
+            {
+              "name": "imageURL",
+              "value": "http://johnlewis.scene7.com/is/image/JohnLewis/000312826?"
+            },
+            {
+              "name": "productURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/ted-baker-nour-silk-maxi-dress/p999100?colour=Orange&selectedSize=M"
+            },
+            {
+              "name": "itemName",
+              "value": "Ted Baker Nour Silk Maxi Dress,Orange,M"
+            },
+            {
+              "name": "requestTimePrice",
+              "value": "25.55"
+            },
+            {
+              "name": "productRating",
+              "value": "1.9"
+            },
+            {
+              "name": "notificationTimePrice",
+              "value": "229.99"
+            },
+            {
+              "name": "quantityInStock",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "dynamicAttributeType": [
+            {
+              "name": "numberOfOpenRequests",
+              "value": "9"
+            },
+            {
+              "name": "countOfNotificationsInGroup",
+              "value": "9"
+            },
+            {
+              "name": "timeTilNextWave",
+              "value": "00:00:18:49"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

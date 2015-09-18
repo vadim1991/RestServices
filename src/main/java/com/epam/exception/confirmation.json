@@ -1,0 +1,100 @@
+{
+  "template": {
+    "templateID": "BACK_IN_STOCK_CONFIRMATION"
+  },
+  "email": [
+    {
+      "subject": "Confirmation",
+      "fromName": "test",
+      "fromAddress": "johnlewis@eml.johnlewis.com",
+      "toAddress": "example@com.com",
+      "priority": "1",
+      "dynamicAttributes": [
+        {
+          "name": "generalInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "Campaign_CD",
+              "value": "Confirmation Test"
+            },
+            {
+              "name": "Communication_CD",
+              "value": "Confirmation Test"
+            },
+            {
+              "name": "Communication_Occurrence_No",
+              "value": "test"
+            },
+            {
+              "name": "toMessageType",
+              "value": "0"
+            },
+            {
+              "name": "optOutURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/store/backinstock/email-me-when-available-cancellation?productUrl=/ted-baker-nour-silk-maxi-dress/p999100&selectedSize=XS&colour=Pink&Sku=205&fid=RW1haWw9ZXhhbXBsZUBjb20uY29tJmJhY2tJblN0b2NrTm90aWZ5SXRlbUlEPTkwMDAwNA%3D%3D"
+            }
+          ]
+        },
+        {
+          "name": "recipientContext",
+          "dynamicAttributeType": []
+        },
+        {
+          "name": "userContext",
+          "dynamicAttributeType": [
+            {
+              "name": "myJLStatus",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "productInfo",
+          "dynamicAttributeType": [
+            {
+              "name": "productCategory",
+              "value": "Department 30"
+            },
+            {
+              "name": "productCode",
+              "value": "999100"
+            },
+            {
+              "name": "webSKU",
+              "value": "205"
+            },
+            {
+              "name": "imageURL",
+              "value": "http://johnlewis.scene7.com/is/image/JohnLewis/000312827?"
+            },
+            {
+              "name": "productURL",
+              "value": "http://jl-atgdev-epm-andkorkoshko:80/ted-baker-nour-silk-maxi-dress/p999100?colour=Pink&selectedSize=XS"
+            },
+            {
+              "name": "itemName",
+              "value": "Ted Baker Nour Silk Maxi Dress,Pink,XS"
+            },
+            {
+              "name": "requestTimePrice",
+              "value": "229.99"
+            },
+            {
+              "name": "productRating",
+              "value": "1.9"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "dynamicAttributeType": [
+            {
+              "name": "numberOfOpenRequests",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
